@@ -2,6 +2,8 @@
 This webpage accepts password ideas from users and ensures that the input meets the requirements listed on the page. If the input received does not meet the standards, an error message will be displayed, informing the user that their password is insufficient. 
 
 ### How to use this page: 
+![sample](https://github.com/KaylaMac/PasswordChecker/blob/main/SampleImage/Sample.png)
+
 Type in a password idea and try to meet all of the requirements. Click the “check” button once you have typed in a password to test its strength. 
 
 ### Note: 
