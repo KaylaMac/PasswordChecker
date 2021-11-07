@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PW Checker</title>
+	<link href= "PWCSS.css" rel= "stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>Create a password</h1>
+	<h2 id="text">Password must include:</h2>
+	<table>
+		<tr><td>1. </td> <td>Exactly 10 characters</td></tr>
+		<tr><td>2. </td> <td>At least one symbol</td></tr>
+		<tr><td> </td> <td>- Must use: ! $ # & ?</td></tr>	<!-- User is limited in terms of what symbols may be used because I only check for these symbols -->
+		<tr><td>3. </td> <td>At least one integer</td></tr>
+	</table> <br> <br>
+
+	<input type="password" id="pw" maxlength="10" placeholder="Enter PW here"> <br>
+	<input type="button" id="check" value="Check"> <br>
+
+	<!-- This is where the output will be printed in the page -->
+	<h2 id="out"><h2>	<!-- Before receiving user input, this heading will be displayed as a red line. After receiving input, a message will be displayed in a box. -->
+	<script src="PWJS.js"></script>
+</body>
+</html>
